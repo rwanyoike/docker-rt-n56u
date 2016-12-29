@@ -6,7 +6,7 @@ Containerized version of [padavan/rt-n56u](https://bitbucket.org/padavan/rt-n56u
 
 This will pull an image with padavan/rt-n56u and a built MIPSel toolchain:
 
-    $ docker pull rwanyoike/rt-n56u
+    $ docker run -it rwanyoike/rt-n56u
 
 ## Manual build
 

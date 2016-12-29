@@ -24,10 +24,10 @@ RUN apt-get update \
 
 WORKDIR /opt
 
-# The rt-n56u project
 RUN git clone --depth=1 https://bitbucket.org/padavan/rt-n56u.git
 
-# Build the toolchain
 RUN cd rt-n56u/toolchain-mipsel \
         && ./clean_sources \
         && ./build_toolchain
+
+CMD ["/bin/bash"]
